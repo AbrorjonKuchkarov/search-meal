@@ -1,0 +1,91 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+}
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: aliceblue;
+   padding: 10px;
+   color: rgb(105, 76, 133);
+}
+
+.container{
+   margin: auto;
+   max-width: 800px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+.flex{
+   display: flex;
+}
+
+h1{
+   margin: 30px 0 30px 0;
+   font-size: 50px;
+}
+
+input, button{
+   margin: 0;
+   border: 1px solid rgb(171, 212, 228);
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   padding: 5px 10px;
+   font-size: 20px;
+   outline: none;
+}
+
+input[type='text'] {
+   width: 300px;
+}
+
+#searchBtn {
+   border-left: 0;
+   border-radius: 0;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   cursor: pointer;
+   color: rgb(105, 76, 133);
+
+}
+
+.randomBtn {
+   margin-left: 10px;
+   border-radius: 5px;
+   color: rgb(105, 76, 133);
+   cursor: pointer;
+}
+
+#result-handling{
+   margin: 20px 0;
+}
+
+.meals{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-between;
+   
+}
+
+.meals img {
+   width: 250px;
+   border-radius: 15px;
+   margin: 15px 0;
+   box-shadow: -2px -2px transparent;
+}
+
+.meals img:hover {
+   cursor: pointer;
+   box-shadow: 2px 2px transparent;
+}
+
+.meal-info {
+   margin-bottom: 10px;
+   font-size: 18px;
+   border-bottom: 1px dashed #b1d2e9;
+}
